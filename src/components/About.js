@@ -1,4 +1,4 @@
-import aboutImg from '../images/about.jpeg';
+import aboutImg from '../images/about-pic.jpg';
 import Title from './Title';
 function About() {
   return (
@@ -12,16 +12,15 @@ function About() {
         <article className="about-info">
           <h3>explore the difference</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            At Roamify, we are more than just a travel service – we are
+            storytellers of unforgettable experiences.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+            With a passion for exploration and a commitment to exceptional
+            service, we craft journeys that go beyond destinations, creating
+            memories that last a lifetime.
           </p>
-          <a href="#" className="btn">
+          <a href="#about" className="btn">
             read more
           </a>
         </article>

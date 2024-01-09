@@ -11,11 +11,11 @@ Variables
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(185, 62%, 45%);
+  --clr-primary-5: #7c3879;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
-  --clr-primary-8: hsl(184, 80%, 74%);
+  --clr-primary-8: #cb79c7;
   --clr-primary-9: hsl(185, 94%, 87%);
   --clr-primary-10: hsl(186, 100%, 94%);
   /* darkest grey - used for headings */
@@ -206,8 +206,8 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
-      url('./images/main.jpeg') center/cover no-repeat;
+    background: linear-gradient(rgb(124, 56, 121, 0.7), rgba(0, 0, 0, 0.7)),
+      url('./images/main-bg.jpg') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
@@ -273,7 +273,7 @@ Services
 }
 .service-icon {
   background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+  color: #fff;
   padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
@@ -343,8 +343,8 @@ Featured Tours
   position: absolute;
   right: 0;
   bottom: 0;
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-1);
+  background: var(--clr-primary-5);
+  color: #fff;
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
   margin-bottom: 0;
@@ -558,3 +558,6 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+/* set hero to 
+min-height:calc(100vh - 62px);
+*/

@@ -1,4 +1,4 @@
-import logo from '../images/logo.svg';
+import logo from '../images/Group 1.svg';
 import { pageLinks, socialLinks } from '../data';
 
 const Navbar = () => {
